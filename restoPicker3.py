@@ -95,6 +95,10 @@ class Application(tk.Tk):
 def main():
     global data
 
+    # Add a prompt to ask the user's name 
+    # then use this name as
+    # userData/name/likes.json
+    # userData/name/preferences.json
     data_json = open('data.json')
     data = json.load(data_json)
     data_json.close()
