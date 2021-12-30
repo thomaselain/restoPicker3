@@ -1,0 +1,47 @@
+{
+  "Equipment":
+  {
+    "Hotplate" :
+    {
+      "Amount" : "2",
+      "Pan" : "4",
+      "Pot" : "2",
+      "Wok" : "4"
+    },
+    "Oven" : "2",
+    "Microwave" : "2",
+    "Mixer" : "1"
+  },
+  "Diet":
+  {
+    "Vegetarian" : true,
+    "Halal" : false,
+    "Casher" : false,
+    "Pescitarian" : false,
+    "Vegan" : false
+  },
+  "Likes":
+  {
+    "Chicken" :       1,
+    "Lamb" :          1,
+    "Beef" :          0,
+    "Fish" :          0,
+    "Hamm" :          0,
+
+    "Parsley" :       0,
+    "Topinambour" :   0,
+
+    "Apple" :         0,
+    "Manguo" :        0,
+    "Tomato" :        0,
+    "Pineapple" :     0,
+
+    "Salad" :         0,
+    "Onion" :         0,
+    "Courgette" :     0,
+    "Cucumber" :      0,
+    "Caramel" :       0,
+    "Potato" :        0,
+    "Eggplant" :      0
+  }
+}
