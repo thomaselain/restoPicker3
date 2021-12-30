@@ -56,7 +56,7 @@ class Application(tk.Tk):
         self.geometry(str(WIN_W) + 'x' + str(WIN_H))
         self.likes = dict()
         self.creer_widgets()
-        self.rowconfigure(1, {'minsize': 30, 'bg': '#000'})
+        self.rowconfigure(1, {'minsize': 30})
 
 
     def creer_widgets(self):
